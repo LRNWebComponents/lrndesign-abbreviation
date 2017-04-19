@@ -5,7 +5,7 @@
 `lrndesign-abbreviation`
 A wrapper to make a cleaner abbreviation deign element
 
-@demo demo/index.html 
+@demo demo/index.html
 -->
 
 <dom-module id="lrndesign-abbreviation">
@@ -23,13 +23,22 @@ A wrapper to make a cleaner abbreviation deign element
     Polymer({
 
       is: 'lrndesign-abbreviation',
-
       properties: {
+        /**
+         * Abbreviation text.
+         */
         abbr: {
-          type: String
+          type: String,
+          reflectToAttribute: true,
+          notify: true,
         },
+        /**
+         * The thing the abbreviation represents.
+         */
         phrase: {
-          type: String
+          type: String,
+          reflectToAttribute: true,
+          notify: true,
         },
       },
 
