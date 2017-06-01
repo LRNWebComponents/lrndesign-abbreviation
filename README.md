@@ -1,6 +1,6 @@
 # \<lrndesign-abbreviation\>
 
-A wrapper to make a cleaner abbreviation deign element
+A wrapper to make a cleaner abbreviation design element
 
 ## Install the Polymer-CLI
 
