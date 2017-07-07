@@ -1,3 +1,19 @@
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="lrndesign-abbreviation.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<lrndesign-abbreviation abbr="ELMS:LN" phrase="ELMS: Learning Network"></lrndesign-abbreviation>
+```
+
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/LRNWebComponents/lrndesign-abbreviation)
+
 # \<lrndesign-abbreviation\>
 
 A wrapper to make a cleaner abbreviation deign element
